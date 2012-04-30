@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Icon and Splash Demo</name>
+
+<description>
+Basic application to test and demonstrate icons and splash screens.
+</description>
+
+<author href="https://build.phonegap.com" email="shardeep@adobe.com">
+Hardeep Shoker
+</author>
+
+<!-- Icons -->
+
+<icon src="icon.png" />
+<icon src="icons/ios/icon.png" width="57" height="57" />
+<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
+<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/bb/icon.png" gap:platform="blackberry" />
+<icon src="icons/bb/icon_hover.png" gap:platform="blackberry" gap:state="hover"/>
+<icon src="icons/winphone/icon.png" gap:platform="winphone" />
+<!-- winphone requires a jpg for the tile icons -->
+<icon src="icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background" />
+<icon src="icons/webos/icon.png" gap:platform="webos" />
+<icon src="icons/webos/miniicon.png" gap:platform="webos" gap:role="mini" />
+
+<!-- Splash Screens -->
+<gap:splash src="splash.png" />
+<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
+<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
+<gap:splash src="splash/ios/Default.png" width="320" height="480" />
+<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/bb/splash.png" gap:platform="blackberry" />
+<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
+
+</widget>
