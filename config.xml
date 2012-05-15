@@ -14,6 +14,8 @@ Basic application to test and demonstrate icons and splash screens.
 Hardeep Shoker
 </author>
 
+<preference name="phonegap-version" value="1.7.0" />
+
 <!-- Icons -->
 
 <icon src="icon.png" />
